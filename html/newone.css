@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;  
+  }
+  body {
+    background-image: url('background.gif');
+  }
+  footer small{
+    font-size: 8px;
+  }
+  header,article,footer{
+    font-family: 'Averia Sans Libre', cursive;
+    margin-left: auto;
+    margin-right: auto;
+  }
+article{
+	  width: 800px;
+    background: white;
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    border-radius: 10px;
+    clear: both;
+    overflow: hidden;
+  }

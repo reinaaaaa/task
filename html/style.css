@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Delius|Delius+Swash+Caps|Coming+Soon|Averia+Sans+Libre);
+/*
+#EBEDC8 ivory
+#9AB5C1   gray
+#74698C   紅いも
+#C1867B   brown
+
+京都の風情に魅せられて、京都を感じる
+
+
+
+*/ 
+  * {
+    margin: 0;
+    padding: 0;  
+  }
+  body {
+    background-image: url('background.gif');
+  }
+  footer small{
+	  font-size: 8px;
+  }
+  header,article,footer{
+    font-family: 'Averia Sans Libre', cursive;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  article,footer{
+  }
+  header{
+	  
+    width: 100%;
+    background-color: #b28c6e;
+    color: #EBEDC8;
+    box-shadow: 1px 1px 1px gray;
+  }
+  header h1{
+    font-family: 'Averia Sans Libre', cursive;
+    text-shadow: 1px 1px 1px ivory;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  article{
+	  width: 800px;
+    background: #EBEDC8;
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    border-radius: 10px;
+    clear: both;
+    overflow: hidden;
+  }
+  article h1{
+    margin: 20px;
+  }
+  article p{
+    margin: 0 20px;
+  }
+  article img{
+    max-width: 300px;
+    float: right;
+    margin: 0 20px;
+  }
+  #top {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/top.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+  }
+  #top h1 {
+    text-align: center;
+    margin-top: 18%;
+  }
+  footer{
+  	font-family: 'Averia Sans Libre', cursive;
+    width: 800px;
+  	text-align: center;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+  }
