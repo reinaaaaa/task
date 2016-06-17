@@ -4,18 +4,13 @@
 #9AB5C1   gray
 #74698C   紅いも
 #C1867B   brown
-
-京都の風情に魅せられて、京都を感じる
-
-
-
 */ 
   * {
     margin: 0;
     padding: 0;  
   }
   body {
-    background-image: url('background.gif');
+    background-image: white;
   }
   footer small{
 	  font-size: 8px;
@@ -30,7 +25,7 @@
   header{
 	  
     width: 100%;
-    background-color: #b28c6e;
+    background-color: #203744;
     color: #EBEDC8;
     box-shadow: 1px 1px 1px gray;
   }
@@ -49,21 +44,20 @@
   }
   header nav ul li{
     display: inline-block;
-    border-right: 1px solid #74698C;
+    border-right: 1px solid ivory;
     font-size: 16px;
     padding: 0 5px;
 
   }
   header nav ul li:first-child {
-    border-left: 1px solid #74698C;
+    border-left: 1px solid ivory;
   }
   header nav ul li a{
     text-decoration: none;
-    color: #74698C;
+    color: #EBEDC8;
   }
   header nav ul li a:hover{
     text-decoration: underline;
-    color: black
   }
   header h1{
     font-family: 'Averia Sans Libre', cursive;
@@ -102,19 +96,39 @@
     background-size: cover;
     background-position: 0 -50px;
   }
+  #article-1 h2{
+    margin: 0 20px;
+  }
   #top h1 {
     text-align: center;
     margin-top: 13%;
     font-family: 'Averia Sans Libre', cursive;
     text-shadow: 1px 1px 1px ivory;
     font-size: 72px;
-
+  }
+  #contents{
+    width: 800px;
+    margin: 24px auto;
+  }
+  #access table{
+    padding: 20px;
+  }
+  #access table th{
+    width: 30%;
+  }
+  #access table tr th,
+  #access table tr td{
+    border-bottom: 1px solid #C1867B;
+    padding: 10px 0;
+  }
+  #inquiry form table{
+    margin-left: 30px;
+  }
+  #inquiry form table .buttons{
+    text-align: center;
   }
   footer{
   	font-family: 'Averia Sans Libre', cursive;
     width: 800px;
   	text-align: center;
-    border-width: 1px;
-    border-color: gray;
-    border-style: solid;
   }

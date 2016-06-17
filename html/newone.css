@@ -1,22 +1,24 @@
+@import url(<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>); 
+
 * {
     margin: 0;
     padding: 0;  
   }
   body {
-    background-color: ivory;
+    background-color: white;
 
   }
   footer small{
     font-size: 8px;
   }
   header,article,footer{
-    font-family: 'Averia Sans Libre', cursive;
+    font-family: 'Special Elite', cursive;
     margin-left: auto;
     margin-right: auto;
   }
 article{
 	  width: 800px;
-    background: white;
+    background: ivory;
     color: gray;
     margin-top: 40px;
     margin-bottom: 40px;
